@@ -2,7 +2,6 @@
 <html id="page1">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
@@ -11,31 +10,34 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body class="body" data-gr-c-s-loaded="true">
+  <!-- div pour contenir header + splashscreen, rend responsive le fondneurone-->
+  <div id="containertop">
   <!--Seul moyen que j'ai trouvé pour mettre une image en background avec de la transparence
       en plus du background dégradé-->
-  <img class="fondneurone" src="images/fondneurone.png" alt="fondneurone">
-  <header>
-    <nav>
-      <ul class="topleft">
-        <li><a class="header" href="index.html">CURIONOMY</a></li>
-      </ul>
-      <ul class="topright">
-        <li><a class="header" href="index.html">Bienvenue</a></li>
-        <li><a class="header" href="pourquoi.html">Pourquoi?</a></li>
-        <li><a class="header" href="trouverunrapport.html">Trouver un rapport</a></li>
-      </ul>
-    </nav>
-  </header>
-  <section class="splashscreen">
-    <article class="bienvenue">
-      <img id="logo" src="images/aimant.png" alt="logo aimant">
-      <h1 id="titrecurionomy"><strong>CURIONOMY</strong></h1>
-        <p id="savoirattractif"><em>Le savoir attractif</em></p>
-      <ul class="ensavoirplus">
-        <li><a href="#">EN SAVOIR PLUS</a></li>
-      </ul>
-    </article>
-  </section>
+    <img class="fondneurone" src="images/fondneurone.png" alt="fondneurone">
+    <header>
+        <nav>
+          <ul class="topleft">
+            <li><a class="header" href="index.html">CURIONOMY</a></li>
+          </ul>
+          <ul class="topright">
+            <li><a class="header" href="index.html">Bienvenue</a></li>
+            <li><a class="header" href="pourquoi.html">Pourquoi?</a></li>
+            <li><a class="header" href="trouverunrapport.html">Trouver un rapport</a></li>
+          </ul>
+        </nav>
+      </header>
+    <section class="splashscreen">
+        <article class="bienvenue">
+          <img id="logo" src="images/aimant.png" alt="logo aimant">
+          <h1 id="titrecurionomy"><strong>CURIONOMY</strong></h1>
+          <p id="savoirattractif"><em>Le savoir attractif</em></p>
+          <ul class="ensavoirplus">
+            <li><a href="#">EN SAVOIR PLUS</a></li>
+          </ul>
+        </article>
+      </section>
+  </div>
   <section class="decouverte">
     <article id="demarche">
       <p id="trouverlinfo">TROUVER L'INFORMATION VÉRIFIÉE</p>

@@ -1,16 +1,34 @@
+@media screen and (max-width: 425px) {
+  #etapes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+  }
+  .etape {
+    width: 100%;
+    padding: 3%;
+    margin: 0 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+#containertop {
+  position: relative;
+}
 .fondneurone {
-  opacity: 0.1;
+  display: block;
+  opacity: 0.3;
   position: absolute;
-  top: 0%;
   width: 100%;
-  height: 36.1em;
+  height: 100%;
+  z-index: -1;
 }
 header {
+  position: relative;
   width: 100%;
   display: block;
-  position: absolute;
-  top: 0px;
-  left: 0px;
   padding: 0.07% 0%;
   font-family: 'Rubik', sans-serif;
   background: linear-gradient(rgba(0, 171, 276, 0.7),rgba(0, 226, 192, 0.7));
@@ -22,13 +40,15 @@ body {
   height: 100%;
   margin: 0px;
   font-family: 'Rubik', sans-serif;
+  width: 100%;
+  position: relative;
 }
 nav {
   display: flex;
   margin-left: 6%;
   margin-right: 3%;
   justify-content: space-between;
-  font-size: large;
+  font-size: 115%;
   font-weight: normal;
 }
 ul {
@@ -43,15 +63,19 @@ em {
 .topleft {
   float: left;
   padding: inherit;
+  width: 15%;
 }
 .topleft li {
-  font-size: larger;
+  font-size: 135%;
 }
 .topright {
   display: flex;
   align-content: space-around;
-  width: 50%;
+  width: 60%;
   padding: inherit;
+}
+.topright li {
+  width: 33%;
 }
 body > header > nav > ul {
   display: flex;
@@ -62,7 +86,8 @@ a {
   color: black;
 }
 .splashscreen {
-  margin-top: 5%;
+  position: relative;
+  width: 100%;
   margin-bottom: 2.5%;
   margin-left: 0%;
   margin-right: 0%;
@@ -78,14 +103,13 @@ a {
   align-items: center;
 }
 #logo {
-  height: 100px;
-  width:100px;
+  width:7%;
   margin:2%;
   transform: rotate(45deg);
 }
 .ensavoirplus {
   display: flex;
-  width: 15%;
+  width: 23%;
   justify-content: center;
   border: 0px solid black;
   border-radius: 10px;
@@ -106,13 +130,13 @@ a {
   margin: 1%;
 }
 h1 {
-  font-size: 4em;
+  font-size: 400%;
   margin:1%;
   font-family: 'Raleway', sans-serif;
-  letter-spacing: 7px;
+  letter-spacing:0.2em;
 }
 #savoirattractif{
-  font-size: 1.5em;
+  font-size: 150%;
   margin: 0;
   padding-bottom: 5%;
   padding-left: 5%;
@@ -160,6 +184,7 @@ h1 {
 }
 #choix {
   padding: 2.5%;
+  padding-bottom: 8%;
 }
 .bottomsection {
   display: flex;
@@ -172,7 +197,7 @@ h1 {
   border: 0px solid black;
   border-radius: 30px;
   background-color: #ff4d4d;
-  width: 20%;
+  width: 33%;
 }
 .bottomsection a {
   display: flex;
