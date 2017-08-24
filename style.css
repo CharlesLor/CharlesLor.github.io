@@ -1,4 +1,4 @@
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 680px) {
   #etapes {
     display: flex;
     flex-direction: column;
@@ -8,10 +8,6 @@
   .etape {
     width: 100%;
     padding: 3%;
-    margin: 0 1%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
 }
 #containertop {
