@@ -1,13 +1,55 @@
-@media screen and (max-width: 680px) {
+@media all and (max-width: 720px) {
   #etapes {
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: space-between;
   }
-  .etape {
+  #etapes div {
     width: 100%;
     padding: 3%;
+  }
+  #demarche h2 {
+    font-size: 1.5em;
+  }
+  #choix ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  #choix li {
+    width: 80%;
+    margin-bottom: 10%;
+  }
+  .bienvenue ul {
+    width: 40%;
+  }
+  nav {
+    flex-direction: column;
+  }
+  nav .topright {
+    width: 100%;
+  }
+  .topleft {
+    display: none;
+  }
+  footer nav {
+    align-items: center;
+  }
+  footer .bottomright {
+    width: 100%;
+  }
+  .bienvenue h1 {
+    font-size: 200%;
+    text-align: center;
+  }
+  .details {
+    flex-direction: column;
+  }
+  .details #pourquoi {
+    width: 100%;
+  }
+  .details #quicomment {
+    width: 100%;
   }
 }
 #containertop {
@@ -33,10 +75,10 @@ header {
   color: white;
 }
 body {
-  height: 100%;
+  height: fit-content;
   margin: 0px;
   font-family: 'Rubik', sans-serif;
-  width: 100%;
+  width: fit-content;
   position: relative;
 }
 nav {
@@ -105,7 +147,7 @@ a {
 }
 .ensavoirplus {
   display: flex;
-  width: 23%;
+  width: 30%;
   justify-content: center;
   border: 0px solid black;
   border-radius: 10px;
@@ -234,7 +276,6 @@ footer {
   width: 60%;
   margin-right: 2%;
   padding: 4% 0%;
-  padding-right: 4%;
 }
 #quicomment {
   width: 40%;
