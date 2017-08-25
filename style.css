@@ -51,6 +51,10 @@
   .details #quicomment {
     width: 100%;
   }
+  .bienvenue #savoirattractif {
+    font-size: 100%;
+    text-align: center;
+  }
 }
 #containertop {
   position: relative;
